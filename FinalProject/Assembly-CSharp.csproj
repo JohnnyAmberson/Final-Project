@@ -98,6 +98,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\RestartScript.cs" />
     <Compile Include="Assets\Scripts\FireScript2.cs" />
+    <Compile Include="Assets\Scripts\InventoryScript.cs" />
+    <Compile Include="Assets\quitScript.cs" />
+    <Compile Include="Assets\Scripts\TimerScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
