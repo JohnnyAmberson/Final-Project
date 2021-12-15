@@ -6,12 +6,12 @@ public class FireScript : MonoBehaviour
 {
     CloseScript cs;
     [SerializeField]
-    GameObject _fire;
+    GameObject _Fire;
     private void OnCollisionEnter(Collision col)
     {
         if (col.gameObject.CompareTag("flint&Steel") && cs._isClose)
         {
-            _fire.SetActive(true);
+            _Fire.SetActive(true);
         }
     }
 }
