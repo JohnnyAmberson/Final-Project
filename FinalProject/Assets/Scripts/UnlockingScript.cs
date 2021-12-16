@@ -8,13 +8,15 @@ public class UnlockingScript : MonoBehaviour
     Rigidbody rb;
     [SerializeField]
     Rigidbody rb2;
+    [SerializeField]
     AudioSource _click;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("key"))
         {
             rb.constraints = rb2.constraints;
+            _click.Play();
         }
-        _click.Play();
+        
     }
 }

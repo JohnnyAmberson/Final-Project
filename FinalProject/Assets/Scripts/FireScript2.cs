@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class FireScript2 : MonoBehaviour
 {
-    bool _flint;
-    bool _steel;
+    bool _flint = false;
+    bool _steel = false;
     [SerializeField]
     GameObject _fire;
     private void OnTriggerEnter(Collider other)

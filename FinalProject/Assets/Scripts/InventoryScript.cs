@@ -12,7 +12,7 @@ public class InventoryScript : MonoBehaviour
     GameObject _spawn;
     [SerializeField]
     GameObject _spawn2;
-    bool _inStock;
+    bool _inStock = true;
     private void Start()
     {
         _inStock = true;
