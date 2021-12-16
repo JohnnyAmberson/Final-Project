@@ -1058,3 +1058,16 @@ System memory in use after: 84.9 MB.
 Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 4072.
 Total: 4.764100 ms (FindLiveObjects: 0.575900 ms CreateObjectMapping: 0.327000 ms MarkObjects: 2.299400 ms  DeleteObjects: 1.560700 ms)
 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 4072.
+Total: 6.555100 ms (FindLiveObjects: 0.621900 ms CreateObjectMapping: 0.296900 ms MarkObjects: 3.514700 ms  DeleteObjects: 2.119000 ms)
+
