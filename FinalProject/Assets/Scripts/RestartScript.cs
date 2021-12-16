@@ -6,11 +6,16 @@ public class RestartScript : MonoBehaviour
 {
     [SerializeField]
     GameObject _startPoint;
+    Transform[] _transforms;
+    private void Start()
+    {
+        
+    }
     public void Restart()
     {
 
-        gameObject.transform.position = _startPoint.transform.position;
-        gameObject.transform.rotation = _startPoint.transform.rotation;
+        gameObject.transform.SetPositionAndRotation(_startPoint.transform.position, _startPoint.transform.rotation);
+
     }
     // Start is called before the first frame update
     //void Start()
