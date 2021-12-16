@@ -12,18 +12,20 @@ public class InventoryScript : MonoBehaviour
     GameObject _spawn;
     [SerializeField]
     GameObject _spawn2;
-    List<GameObject> inventory;
-    private void Awake()
+    bool _inStock;
+    private void Start()
     {
-        inventory.Add(_item1);
-        inventory.Add(_item2);
+        _inStock = true;
     }
     public void TakeOut()
     {
-        Instantiate(inventory[0], _spawn.transform.position, Quaternion.identity);
-        Instantiate(inventory[1], _spawn2.transform.position, Quaternion.identity);
-        inventory.Remove(_item1);
-        inventory.Remove(_item2);
+        if (_inStock)
+        {
+            Instantiate(_item1, _spawn.transform.position, Quaternion.identity);
+            Instantiate(_item2, _spawn2.transform.position, Quaternion.identity);
+            _inStock = false;
+        }
+        
     }
 
 
