@@ -219,3 +219,17 @@ Received Import Request.
 Start importing Assets/Scripts/quitScript.cs using Guid(9ca29a7dad3349b4bbd1eefaae06b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786e90c949da4ca0d23d439cb74b49f6') in 0.005811 seconds
   Import took 0.013540 seconds .
 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3976.
+Total: 5.322600 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.334800 ms MarkObjects: 3.046000 ms  DeleteObjects: 1.606300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
