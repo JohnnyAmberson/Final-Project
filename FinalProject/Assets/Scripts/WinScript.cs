@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class WinScript : MonoBehaviour
 {
+    [SerializeField]
+    GameObject _winScreeen;
+    [SerializeField]
+    GameObject _gameObject;
+    [SerializeField]
+    GameObject _left;
+    [SerializeField]
+    GameObject _right;
     // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.gameObject.CompareTag("lid"))
+        {
+            _winScreeen.SetActive(true);
+            _gameObject.SetActive(false);
+            _left.SetActive(true);
+            _right.SetActive(true);
+        }
     }
 }

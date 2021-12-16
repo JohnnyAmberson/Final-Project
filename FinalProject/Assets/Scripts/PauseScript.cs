@@ -11,6 +11,8 @@ public class PauseScript : MonoBehaviour
     TimerScript ts;
     [SerializeField]
     TextMeshProUGUI _time;
+    [SerializeField]
+    TextMeshProUGUI _time2;
     //bool _unPaused;
     [SerializeField]
     InputActionReference _pause; //Serialized field for the action used to pause the game
@@ -22,6 +24,8 @@ public class PauseScript : MonoBehaviour
     GameObject _pauseMenu;
     [SerializeField]
     GameObject _gameObject;
+    [SerializeField]
+    GameObject _loseScreen;
     public float _timer = 60;
     PauseScript ps;
     private void Start()
@@ -37,7 +41,11 @@ public class PauseScript : MonoBehaviour
             _timer -= Time.deltaTime;
         }
         _time.text = _timer.ToString();
-
+        _time2.text = _timer.ToString();
+        if (_timer <= 0)
+        {
+            _loseScreen.SetActive(true);
+        }
     }
    
     
