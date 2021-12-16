@@ -20,7 +20,7 @@ AudioMixerSnapshotController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Snapshot - Copy
+  m_Name: Inside
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: e7c1b172ca221dc4f8610f7c9ccd2c4b
   m_FloatValues:
@@ -51,7 +51,7 @@ AudioMixerController:
     - 812dd4aea6ee83d4aa9b36f653337683
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 24500006}
+  m_TargetSnapshot: {fileID: -1862835864751230485}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -93,7 +93,7 @@ AudioMixerSnapshotController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Snapshot
+  m_Name: Outside
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 108f12d52c906ec4380ae512977e29c6
   m_FloatValues:

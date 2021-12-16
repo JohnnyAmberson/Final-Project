@@ -9,6 +9,7 @@ TagManager:
   - steel
   - key
   - lid
+  - player
   layers:
   - Default
   - TransparentFX
